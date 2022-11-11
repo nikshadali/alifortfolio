@@ -14,15 +14,15 @@ import cisco from '../public/image/cisco.webp';
           </h5>
           <div className="grid gap-8 row-gap-5 lg:grid-cols-3 ">
        
-       <div className="relative p-px overflow-hidden h-72 transition cursor-pointer duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
-       <Link href="https://malikfinancials.com/ads/"> <Image src={wordpress}  alt="html-logo" className='h-72'  /></Link>
+       <div className="relative p-px overflow-hidden h-72 transition  duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+        <Image src={wordpress}  alt="html-logo" className='h-72'  />
        </div>
-       <div className="relative p-px overflow-hidden h-72 transition cursor-pointer duration-300  transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
-       <Link href="https://malikfinancials.com/"> <Image src={freelance}  alt="html-logo" className='h-72'  /></Link>
+       <div className="relative p-px overflow-hidden h-72 transition  duration-300  transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+        <Image src={freelance}  alt="html-logo" className='h-72'  />
         
        </div>
        <div className="relative p-px overflow-hidden transition cursor-pointer duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
-       <Link href="https://motherboardtoday.com/"> <Image src={cisco} alt="html-logo" className='h-72 w-full'  /></Link>
+      <Image src={cisco} alt="html-logo" className='h-72 w-full'  />
        </div>
      </div>
     
