@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
       </div>
       <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-        <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+        <div class="relative rounded-lg bg-white p-8 shadow-2xl sm:p-12">
           <form>
             <div class="mb-6">
               <input
