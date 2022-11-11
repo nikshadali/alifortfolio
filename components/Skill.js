@@ -32,8 +32,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Java Script</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+             I have great knowledge of Javascript programming language 
            </p>
           
          </div>
@@ -54,13 +53,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <Link
-             href="/"
-             aria-label=""
-             className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-           >
-             Learn more
-           </Link>
+          
          </div>
        </div>
        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -79,13 +72,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <Link
-             href="/"
-             aria-label=""
-             className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-           >
-             Learn more
-           </Link>
+          
          </div>
        </div>
      </div>
@@ -126,13 +113,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <Link
-             href="/"
-             aria-label=""
-             className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-           >
-             Learn more
-           </Link>
+          
          </div>
        </div>
        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -151,13 +132,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <Link
-             href="/"
-             aria-label=""
-             className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-           >
-             Learn more
-           </Link>
+          
          </div>
        </div>
      </div>
@@ -198,13 +173,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque rem aperiam.
               </p>
-              <Link
-                href="/"
-                aria-label=""
-                className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </Link>
+             
             </div>
           </div>
           <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -223,13 +192,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque rem aperiam.
               </p>
-              <Link
-                href="/"
-                aria-label=""
-                className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </Link>
+            
             </div>
           </div>
         </div>
