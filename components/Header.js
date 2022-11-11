@@ -1,5 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
+import headr8 from '../public/image/header8.webp'
 import Link from 'next/link';
 
  const Header = () => {
@@ -11,7 +12,7 @@ import Link from 'next/link';
           <svg  className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block" viewBox="0 0 100 100" fill="currentColor"  preserveAspectRatio="none slice">
           <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>  
-          <img  className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"  src="/image/header8.webp"  alt=""  />
+          <Image  className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"  src={headr8}  alt=""  />
           
          
         </div>
@@ -29,7 +30,7 @@ import Link from 'next/link';
             Skilled and motivated web developer looking for a challenging role in a reputable organization to utilize my technical, database, programming, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
             </p>
             <div className="flex items-center">
-            <a href="/" className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none"> Get started </a>
+            <Link href="/" className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none"> Get started </Link>
            
        
             </div>

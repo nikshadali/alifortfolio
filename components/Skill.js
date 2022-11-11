@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import javaScriptLogo from '../public/image/javascriptLogo.svg';
 import reactLogo from '../public/image/reactLogo.svg';
 import nodeLogo from '../public/image/node.svg';
@@ -53,13 +54,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <a
+           <Link
              href="/"
              aria-label=""
              className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
            >
              Learn more
-           </a>
+           </Link>
          </div>
        </div>
        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -78,13 +79,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <a
+           <Link
              href="/"
              aria-label=""
              className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
            >
              Learn more
-           </a>
+           </Link>
          </div>
        </div>
      </div>
@@ -125,13 +126,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <a
+           <Link
              href="/"
              aria-label=""
              className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
            >
              Learn more
-           </a>
+           </Link>
          </div>
        </div>
        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -150,13 +151,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
              accusantium doloremque rem aperiam.
            </p>
-           <a
+           <Link
              href="/"
              aria-label=""
              className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
            >
              Learn more
-           </a>
+           </Link>
          </div>
        </div>
      </div>
@@ -197,13 +198,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque rem aperiam.
               </p>
-              <a
+              <Link
                 href="/"
                 aria-label=""
                 className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
@@ -222,13 +223,13 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque rem aperiam.
               </p>
-              <a
+              <Link
                 href="/"
                 aria-label=""
                 className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>

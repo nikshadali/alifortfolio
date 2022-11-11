@@ -1,12 +1,12 @@
 import {useState} from 'react'
-
+import Link from "next/link"
  const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
-            <a
+            <Link
               href="/"
               aria-label="Company"
               title="Company"
@@ -16,57 +16,57 @@ import {useState} from 'react'
               <span class="ml-2 text-xl font-bold tracking-wide text-purple-700 uppercase">
                Nikshad Ali
               </span>
-            </a>
+            </Link>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
+                <Link
                   href="#home"
                   aria-label="Our product"
                   title="Our product"
                   class="tracking-wide text-dark font-bold transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                  Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#certificate"
                   aria-label="Our product"
                   title="Our product"
                   class="tracking-wide text-dark font-bold transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                  Certificate
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#skills"
                   aria-label="Product pricing"
                   title="Product pricing"
                   class="tracking-wide text-dark font-bold transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   Skills
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#projects"
                   aria-label="About us"
                   title="About us"
                   class="tracking-wide text-dark font-bold transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#contact"
                   aria-label="About us"
                   title="About us"
                   class="tracking-wide text-dark font-bold transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                  Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ import {useState} from 'react'
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <a
+                      <Link
                         href="/"
                         aria-label="Company"
                         title="Company"
@@ -108,7 +108,7 @@ import {useState} from 'react'
                         <span class="ml-2 text-xl font-bold tracking-wide text-purple-700 uppercase">
                           Nikshad Ali
                         </span>
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -129,64 +129,64 @@ import {useState} from 'react'
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <a
+                        <Link
                           href="/"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Product
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Features
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Pricing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           aria-label="Sign in"
                           title="Sign in"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Sign in
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
                           Sign up
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
