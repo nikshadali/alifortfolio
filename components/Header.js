@@ -7,23 +7,23 @@ import  jsPDF  from "jspdf";
 
  const Header = () => {
   
-  
-        // Function will execute on click of button
-        const onButtonClick = () => {
+
+  // Function will execute on click of button
+    const onButtonClick = () => {
       const myCv = "/pdf/myCv.pdf"
-            // using Java Script method to get PDF file
-            fetch(myCv).then(response => {
-                response.blob().then(blob => {
-                    // Creating new object of PDF file
-                    const fileURL = window.URL.createObjectURL(blob);
-                    // Setting various property values
-                    let alink = document.createElement('a');
-                    alink.href = fileURL;
-                    alink.download = myCv;
-                    alink.click();
-                })
-            })
-        }
+   // using Java Script method to get PDF file
+   fetch(myCv).then(response => {
+   response.blob().then(blob => {
+   // Creating new object of PDF file
+    const fileURL = window.URL.createObjectURL(blob);
+    // Setting various property values
+    let alink = document.createElement('a');
+    alink.href = fileURL;
+    alink.download = myCv;
+    alink.click();
+   })
+   })
+   }
  
 
     return (
@@ -50,7 +50,7 @@ import  jsPDF  from "jspdf";
             Skilled and motivated web developer looking for a challenging role in a reputable organization to utilize my technical, database, programming, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
             </p>
             <div className="flex items-center">
-            <Link href="#"  className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none" onClick={onButtonClick} > Download CV </Link>
+            <button className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none" onClick={onButtonClick} > Download CV </button>
            
        
             </div>
