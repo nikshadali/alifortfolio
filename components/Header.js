@@ -2,16 +2,20 @@ import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
 import headr8 from '../public/image/header8.webp'
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
  const Header = () => {
-  const myCv = "/pdf/myCv.pdf"
- const [myCV, setMyCV] = useState()
+ 
+  const path = 'https://alifortfolio.vercel.app//pdf/myCV.pdf'
+ const [myCV, setmyCV] = useState(path)
 
+
+ 
   // Function will execute on click of button
     const onButtonClick = () => {
+     
     
   //  // using Java Script method to get PDF file
   //  fetch(myCv).then(response => {
@@ -25,7 +29,7 @@ import { useState } from 'react';
   //   alink.click();
   //  })
   //  })
-      setMyCV(myCV)
+      // setMyCV(path)
 
    }
  
@@ -45,7 +49,7 @@ import { useState } from 'react';
            
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none" id="auto_type"> I am  <span className="inline-block text-deep-purple-accent-400 text-purple-700"><Typewriter
   options={{
-    strings: ['Nikshad Ali', 'Web Developer', 'Web Disgner'],
+    strings: ['Nikshad Ali', 'Web Developer', 'Web Designer'],
     autoStart: true,
     loop: true,
   }}
@@ -54,7 +58,7 @@ import { useState } from 'react';
             Skilled and motivated web developer looking for a challenging role in a reputable organization to utilize my technical, database, programming, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
             </p>
             <div className="flex items-center">
-            <Link href={myCv} target="_blank" className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none" onClick={onButtonClick} > Download CV </Link>
+            <Link href={myCV} target= "_blank" className="inline-flex items-center justify-center h-12 px-10 mr-6 font-medium tracking-wide text-white transition duration-500 rounded-3xl shadow-md bg-purple-700 hover:-translate-y-2 hover:drop-shadow-2xl focus:shadow-outline focus:outline-none" onClick={onButtonClick} > Download CV </Link>
            
        
             </div>
