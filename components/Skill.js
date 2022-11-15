@@ -32,7 +32,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Java Script</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             I have great knowledge of Javascript programming language 
+             I have great knowledge of Javascript programming language with five years exprience. I am good in Asynchronous Programming, Functional Programming, Efficient Memory Management. 
            </p>
           
          </div>
@@ -50,8 +50,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">React Js</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+             I have great knowledge of React JS with five years exprience. I am good in state management, Jsx, useEffect, useState, useReducer, and component. 
            </p>
           
          </div>
@@ -69,8 +68,9 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Node Js</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+           I have great knowledge of Node JS. I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
+
+    
            </p>
           
          </div>
@@ -91,8 +91,8 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Express JS</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+           I have great knowledge of Express JS. I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
+
            </p>
           
          </div>
@@ -110,8 +110,9 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">MondoDB</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+           I have great knowledge of MongoDB JS. I am good in maintaining MongoDB databases
+          Keep clear documentation of the database setup and architecture.
+
            </p>
           
          </div>
@@ -129,8 +130,8 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Wordpress</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-             accusantium doloremque rem aperiam.
+           I have great knowledge of WordPress. I am good in WordPress theme customization and redesign, building Responsive website Speed optimization,All in one SEO 
+
            </p>
           
          </div>
@@ -151,8 +152,8 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h2 className="font-semibold leading-5 text-purple-700">HTML5</h2>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam.
+              I have great knowledge of HTML. I am good in Custom Website Design,Edit HTML Templates,PSD to HTML, HTML CSS Bug Fixing,Responsive Websites.
+
               </p>
              
             </div>
@@ -170,8 +171,8 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h6 className="font-semibold leading-5 text-purple-700">CSS 3</h6>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam.
+              I have great knowledge of CSS. I am good in a  CSS Grid model and CSS flexbox model, animation, card design, responsive websites, and hover effects.
+
               </p>
              
             </div>
@@ -189,8 +190,9 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h6 className="font-semibold leading-5 text-purple-700">Bootstrap</h6>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam.
+              I have great knowledge of Bootstrap. I am good in gallery carousel, slider, contact form, Responsive Design, Google map, CSS grid model, Breakpoints, Table
+
+
               </p>
             
             </div>
