@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
-import headr8 from '../public/image/header8.webp'
+import headr8 from '../public/image/header10.webp'
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 

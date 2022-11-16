@@ -50,7 +50,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">React Js</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-             I have great knowledge of React JS with five years exprience. I am good in state management, Jsx, useEffect, useState, useReducer, and component. 
+             I have great knowledge of React JS with five years exprience. I am good in React js, single page application, Next js, server-side rendered application, API integration, Redux Reducer, useState, usEffect and so on... 
            </p>
           
          </div>
@@ -68,7 +68,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Node Js</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-           I have great knowledge of Node JS. I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
+           I have great knowledge of Node JS with five years exprience . I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
 
     
            </p>
@@ -91,7 +91,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Express JS</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-           I have great knowledge of Express JS. I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
+           I have great knowledge of Express JS with five years exprience. I am good in managing Database and schema creation, Authentication, and Authorisation, Asynchronous Programming, and debugging. 
 
            </p>
           
@@ -110,7 +110,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">MondoDB</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-           I have great knowledge of MongoDB JS. I am good in maintaining MongoDB databases
+           I have great knowledge of MongoDB JS with five years exprience. I am good in maintaining MongoDB databases
           Keep clear documentation of the database setup and architecture.
 
            </p>
@@ -130,7 +130,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
              <h6 className="font-semibold leading-5 text-purple-700">Wordpress</h6>
            </div>
            <p className="mb-2 text-sm text-gray-900">
-           I have great knowledge of WordPress. I am good in WordPress theme customization and redesign, building Responsive website Speed optimization,All in one SEO 
+           I have great knowledge of WordPress with five years exprience. I am good in WordPress theme customization and redesign, building Responsive website Speed optimization,All in one SEO 
 
            </p>
           
@@ -152,7 +152,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h2 className="font-semibold leading-5 text-purple-700">HTML5</h2>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-              I have great knowledge of HTML. I am good in Custom Website Design,Edit HTML Templates,PSD to HTML, HTML CSS Bug Fixing,Responsive Websites.
+              I have great knowledge of HTML with five years exprience. I am good in Custom Website Design,Edit HTML Templates,PSD to HTML, HTML CSS Bug Fixing,Responsive Websites.
 
               </p>
              
@@ -171,7 +171,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h6 className="font-semibold leading-5 text-purple-700">CSS 3</h6>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-              I have great knowledge of CSS. I am good in a  CSS Grid model and CSS flexbox model, animation, card design, responsive websites, and hover effects.
+              I have great knowledge of CSS with five years exprience. I am good in a  CSS Grid model and CSS flexbox model, animation, card design, responsive websites, and hover effects.
 
               </p>
              
@@ -190,7 +190,7 @@ import bootstrapLogo from '../public/image/bootstrapLogo.svg';
                 <h6 className="font-semibold leading-5 text-purple-700">Bootstrap</h6>
               </div>
               <p className="mb-2 text-sm text-gray-900">
-              I have great knowledge of Bootstrap. I am good in gallery carousel, slider, contact form, Responsive Design, Google map, CSS grid model, Breakpoints, Table
+              I have great knowledge of Bootstrap with five years exprience. I am good in gallery carousel, slider, contact form, Responsive Design, Google map, CSS grid model, Breakpoints, Table
 
 
               </p>
