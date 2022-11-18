@@ -94,7 +94,7 @@ import Link from "next/link"
               </svg>
             </button>
             {isMenuOpen && (
-              <div class="absolute top-0 left-0 w-full">
+              <div class="absolute top-0 left-0 w-full z-10">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
@@ -130,64 +130,56 @@ import Link from "next/link"
                     <ul class="space-y-4">
                       <li>
                         <Link
-                          href="/"
+                          href="#home"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Home
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="#certificate"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          Certificate
                         </Link>
                       </li>
+                     
                       <li>
                         <Link
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Pricing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/"
+                          href="#skills"
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About us
+                         Skills
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/"
-                          aria-label="Sign in"
-                          title="Sign in"
+                          href="#projects"
+                          aria-label="About us"
+                          title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Sign in
+                         Projects
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
+                          href="#contact"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Sign up
+                         Contact
                         </Link>
                       </li>
+                     
                     </ul>
                   </nav>
                 </div>
