@@ -1,5 +1,7 @@
 import {useState} from 'react'
-import Link from "next/link"
+import Link  from "next/link";
+import Image from 'next/image';
+import ali from "../public/image/ali-khan.jpg"
  const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
@@ -14,7 +16,7 @@ import Link from "next/link"
             >
               
               <span class="ml-2 text-xl font-bold tracking-wide text-purple-700 uppercase">
-               Nikshad Ali
+              <Image  className="object-cover w-full h-20 rounded-full "  src={ali}  alt=""  />
               </span>
             </Link>
             <ul class="flex items-center hidden space-x-8 lg:flex">
