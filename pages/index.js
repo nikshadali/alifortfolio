@@ -10,7 +10,7 @@ import Contact from '../components/Contact';
 
 export default function Home() {
   return (
-    <div className='container mx-auto border shadow-2xl'>
+    <div className='container mx-auto border shadow-2xl scroll-smooth'>
       <Navbar />
       <Header/>
       <Certificate />
